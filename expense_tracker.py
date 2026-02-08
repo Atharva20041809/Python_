@@ -30,3 +30,4 @@ def highest_spending_category(expenses):
 print(Total_expense(expenses))
 category_wise_expense(expenses)
 print(highest_spending_category(expenses))
+

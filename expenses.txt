@@ -1,0 +1,5 @@
+Food,120
+Food,80
+Travel,50
+Entertainment,150
+Utilities,400
