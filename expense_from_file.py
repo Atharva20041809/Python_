@@ -7,3 +7,4 @@ for text in lines:
 
 print(expenses)
 
+file.close()
