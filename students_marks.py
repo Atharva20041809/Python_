@@ -26,10 +26,7 @@ def find_topper(marks_dict):
 # function to find students who have scored more then the average of the class
 def find_above_average(marks_dict):
     average = calculate_average(marks_dict)
-    above_average_students = []
-    for i in marks_dict:
-        if marks_dict[i]>average:
-            above_average_students.append(i)
+    above_average_students = [x for x in marks_dict if marks_dict[x]>average]
     return above_average_students
 
 
